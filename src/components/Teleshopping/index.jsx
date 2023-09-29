@@ -5,9 +5,11 @@ import Button from "../../shared/Button";
 
 function Teleshopping() {
   return (
-    <section>
-      <img src={womanImg} alt="" role="presentation" />
-      <Button>Acione nosso televendas</Button>
+    <section className="teleshopping">
+      <div>
+        <img src={womanImg} alt="" role="presentation" />
+        <Button>Acione nosso televendas</Button>
+      </div>
     </section>
   )
 }

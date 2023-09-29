@@ -1,0 +1,19 @@
+.teleshopping {
+  background-color: var(--light);
+  padding-top: 106px;
+}
+
+.teleshopping > div {
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background: url("./bg-rings-yellow.png") 30% center no-repeat, url("./bg-footer.png") left top no-repeat;
+  background-size: 250px, cover;
+}
+
+.teleshopping .btn {
+  margin-bottom: 56px;
+  margin-left: 22px;
+}
