@@ -1,6 +1,4 @@
 .icon-holder{
-  height: 57px;
-  width: 57px;
   border: 10px solid var(--primary);
   border-radius: 50%;
   display: flex;
@@ -9,8 +7,26 @@
   background-color: var(--light);
 }
 
+.icon-holder.sm {
+  height: 57px;
+  width: 57px;
+}
+
+.icon-holder.lg {
+  height: 98px;
+  width: 98px;
+}
+
 .icon-holder .icon {
+  color: var(--color-icon);
+}
+
+.icon-holder.sm .icon {
   width: 25px;
   height: 25px;
-  color: var(--color-icon);
+}
+
+.icon-holder.lg .icon {
+  width: 45px;
+  height: 45px;
 }

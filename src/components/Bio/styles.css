@@ -1,0 +1,80 @@
+.bio {
+  background-color: var(--light-gray);
+  color: var(--secondary);
+  min-height: 775px;
+  position: relative;
+  padding-top: 98px;
+}
+
+.bio > h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  text-align: center;
+  /* margin: 98px auto 34px; */
+}
+
+.bio > div {
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+
+.bio > div:before {
+  content: ' ';
+  display: block;
+  overflow: hidden;
+  background-color: var(--secondary);
+  position: absolute;
+  left: 0;
+  top: 231px;
+  height: 329px;
+  width: 40%;
+  z-index: 0;
+}
+
+.bio .photo {
+  position: relative;
+  z-index: 10;
+}
+
+.bio .photo:before {
+  content: ' ';
+  display: block;
+  background-color: var(--primary);
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  position: absolute;
+  left: 124px;
+  right: 124px;
+  bottom: 100%;
+  height: 18px;
+}
+
+.bio .photo:after {
+  content: ' ';
+  display: block;
+  background-color: var(--primary);
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  position: absolute;
+  left: 124px;
+  right: 124px;
+  top: calc(100% - 4px);
+  height: 18px;
+}
+
+.bio .icon-holder {
+  position: absolute;
+  left: 12px;
+  bottom: -51px;
+}
+
+.bio .photo,
+.bio .text {
+  max-width: 555px;
+}
+
+.bio .text p {
+  line-height: 38px;
+  margin-bottom: 50px;
+}
