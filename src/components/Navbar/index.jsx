@@ -1,6 +1,7 @@
 import logo from "../../assets/logo/logo-dark.png"
 import Button from "../../shared/Button";
 import { MdExpandMore } from "react-icons/md";
+import MenuDropDown from "../MenuDropDown";
 
 function Navbar() {
   return (
@@ -27,6 +28,7 @@ function Navbar() {
           </li>
         </ul>
       </nav>
+      <MenuDropDown />
     </header>
   )
 }
