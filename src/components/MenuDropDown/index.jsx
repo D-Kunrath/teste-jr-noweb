@@ -4,7 +4,7 @@ import LabeledIcon from "../../shared/LabeledIcon";
 
 function MenuDropDown() {
   return (
-    <div>
+    <div className="dropdown">
       {categories.map(category => (
         <LabeledIcon key={category.label} labelPosition="right" {...category} />
       ))}

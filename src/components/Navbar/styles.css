@@ -1,0 +1,51 @@
+.header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background-image: url("./bg-rings-yellow.png");
+  background-repeat: no-repeat;
+  background-size: 156px;
+  background-position: left -20px top -30px;
+}
+
+.navbar {
+  min-width: max(60%, 560px);
+  background-color: var(--primary);
+  border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 30px;
+}
+
+.navbar .link {
+  color: var(--secondary);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.navbar .link:hover:not(:last-child) {
+  text-shadow: #00000099 0 0 2px;
+  transition: text-shadow 0.3s ease-out;
+}
+
+.navbar .link.active {
+  border-bottom: 4px solid var(--light);
+  font-weight: bold;
+}

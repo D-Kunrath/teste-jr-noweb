@@ -1,34 +1,35 @@
-import logo from "../../assets/logo/logo-dark.png"
+import "./styles.css";
+import logo from "../../assets/logo/logo-dark.png";
 import Button from "../../shared/Button";
 import { MdExpandMore } from "react-icons/md";
 import MenuDropDown from "../MenuDropDown";
 
 function Navbar() {
   return (
-    <header>
-      <div>
+    <header className="header">
+      <div className="logo">
         <img src={logo} alt="Logo Elétrica J. Santos" />
       </div>
-      <nav>
-        <ul>
-          <li>
+      <nav className="navbar">
+        <ul className="links">
+          <li className="link active">
             Home
           </li>
-          <li>
-            Categorias <MdExpandMore />
+          <li className="link">
+            Categorias <MdExpandMore className="expand-icon" />
           </li>
-          <li>
+          <li className="link">
             Sobre
           </li>
-          <li>
+          <li className="link">
             Localização
           </li>
-          <li>
+          <li className="link">
             <Button color="secondary" size="md">Contato</Button>
           </li>
         </ul>
       </nav>
-      <MenuDropDown />
+      <MenuDropDown className="dropdown" />
     </header>
   )
 }
