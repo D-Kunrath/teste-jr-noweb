@@ -1,0 +1,42 @@
+.highlights {
+  color: var(--light);
+  padding: 50px;
+  position: relative;
+  background: top -5px left 40%/100px no-repeat url("./bg-rings-gray.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlights:before {
+  content: ' ';
+  display: block;
+  height: 456px;
+  width: clamp(250px, 60%, 1072px);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: var(--secondary);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  z-index: -1;
+}
+
+.highlights:after {
+  content: ' ';
+  display: block;
+  background: top 26px right 30%/250px no-repeat url("./bg-rings-yellow.png");
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+}
+
+.highlights h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  text-shadow: var(--secondary) 0 0 5px;
+  margin-top: 278px;
+  margin-bottom: 25px;
+}

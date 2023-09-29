@@ -27,7 +27,7 @@ export const highlightedProducts = [
     id: 2,
     name: "Filtro de linha",
     image: "filtroDeLinhaImg",
-    category: "Acessórios",
+    category: "Ferramentas",
     price: 1700,
     fullPrice: 2500
   },
@@ -55,7 +55,7 @@ export const highlightedProducts = [
     id: 5,
     name: "Chuveiro",
     image: "chuveiroImg",
-    category: "Utensílios Domésticos",
+    category: "Acessórios",
     price: 10000,
     fullPrice: 12000,
     installment: {
