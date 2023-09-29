@@ -1,15 +1,8 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 
   --primary: #fbaf17;
+  --primary-shadow: #fbaf174d;
   --secondary: #202332;
   --light: #ffffff;
   --dark: #202332;
@@ -18,9 +11,22 @@
 
   --color-icon: #828282;
 
-  --radius-sm: 15px;
+  --radius-sm: 10px;
+  --radius-md: 15px;
   --radius-lg: 70px;
 }
+
+/*
+  font sizes:
+  15px
+  16px 38
+  18px 38
+  20px 38
+  22px 
+  23px 28
+  35px
+
+*/
 
 html {
   padding: 0;

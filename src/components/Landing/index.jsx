@@ -16,7 +16,7 @@ function Landing() {
           Temos produtos para toda sua casa com a melhor qualidade e atendimento da região!
         </p>
         <Button>Veja nossos produtos</Button>
-        <Button>Nos conheça melhor</Button>
+        <Button color="none">Nos conheça melhor</Button>
         <a href="#">
           <AiOutlineArrowDown /> Role para ver mais
         </a>

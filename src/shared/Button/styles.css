@@ -1,0 +1,43 @@
+/*
+  color: primary / secondary / none
+  size: lg / md
+*/
+
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn.md {
+  width: 142px;
+  height: 42px;
+  text-transform: capitalize;
+  border-radius: var(--radius-sm);
+}
+
+.btn.lg {
+  width: 360px;
+  height: 63px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: var(--radius-md);
+}
+
+.btn.primary {
+  background-color: var(--primary);
+  color: var(--secondary);
+  box-shadow: 0 0 60px 0 var(--primary-shadow);
+}
+
+.btn.secondary {
+  background-color: var(--secondary);
+  color: var(--light);
+}
+
+.btn.none {
+  background-color: transparent;
+  color: var(--light);
+  border: 1px solid var(--light);
+}

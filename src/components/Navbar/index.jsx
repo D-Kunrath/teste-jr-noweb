@@ -24,7 +24,7 @@ function Navbar() {
             Localização
           </li>
           <li>
-            <Button color="secondary">Contato</Button>
+            <Button color="secondary" size="md">Contato</Button>
           </li>
         </ul>
       </nav>

@@ -1,8 +1,8 @@
-import './styles.css';
+import "./styles.css";
 
-function Button({ children, color='primary' }) {
+function Button({ children, color="primary", size="lg" }) {
   return (
-    <button>
+    <button className={`btn ${color} ${size}`}>
       {children}
     </button>
   )
