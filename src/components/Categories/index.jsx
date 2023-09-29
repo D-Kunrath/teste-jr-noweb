@@ -2,14 +2,17 @@ import "./styles.css";
 
 import { categories } from "../../libs/data";
 import LabeledIcon from "../../shared/LabeledIcon";
+import CardWrapper from "../../shared/CardWrapper";
 
 function Categories() {
   return (
-    <section>
+    <section className="categories">
       <h2>Categorias</h2>
-      {categories.map(category => (
-        <LabeledIcon key={category.label} {...category} />
-      ))}
+      <CardWrapper>
+        {categories.map(category => (
+          <LabeledIcon key={category.label} {...category} />
+        ))}
+      </CardWrapper>
     </section>
   )
 }

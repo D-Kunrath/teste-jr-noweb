@@ -1,10 +1,11 @@
-import acessoriosImg from './acessorios.png';
-import cabosImg from './cabos.png';
-import decoracoesImg from './decoracoes.png';
-import ferramentasImg from './ferramentas.png';
-import lampadasImg from './lampadas.png';
-import lustresImg from './lustres.png';
-import utensiliosDomesticosImg from './utensilios-domesticos.png';
+import acessoriosImg from './acessorios.svg';
+import cabosImg from './cabos.svg';
+import decoracoesImg from './decoracoes.svg';
+import ferramentasImg from './ferramentas.svg';
+import lampadasImg from './lampadas.svg';
+import luminariasImg from './luminarias.svg';
+import lustresImg from './lustres.svg';
+import utensiliosDomesticosImg from './utensilios-domesticos.svg';
 
 
 export {
@@ -13,6 +14,7 @@ export {
   decoracoesImg,
   ferramentasImg,
   lampadasImg,
+  luminariasImg,
   lustresImg,
   utensiliosDomesticosImg,
 }

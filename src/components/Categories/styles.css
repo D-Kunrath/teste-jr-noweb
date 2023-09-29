@@ -1,0 +1,22 @@
+.categories {
+  min-height: 952px;
+  background: url("./bg-rings-gray.png"), linear-gradient(var(--secondary), var(--secondary));
+  background-size: 100px, auto 456px;
+  background-repeat: no-repeat;
+  background-position: top left 40%, top;
+  color: var(--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.categories h2 {
+  font-size: 35px;
+  margin: 75px auto 140px;
+  text-transform: uppercase;
+}
+
+.categories .label {
+  color: var(--primary);
+}

@@ -1,0 +1,50 @@
+/* 
+  labelPosition: pos-top / pos-right;
+  size: lg / md
+*/
+
+.labeled-icon {
+  display: flex;
+}
+
+.labeled-icon.pos-top {
+  flex-direction: column;
+  align-items: center;
+}
+
+.labeled-icon.pos-right {
+  flex-direction: row-reverse;
+}
+
+.labeled-icon.lg {
+  font-size: 22px;
+}
+
+.labeled-icon.lg .label {
+  height: 57px;
+  width: 150px;
+}
+
+.labeled-icon.pos-top .label {
+  text-align: center;
+  vertical-align: center;
+}
+
+.labeled-icon .icon {
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.labeled-icon .icon img {
+  width: 90%;
+  height: 90%;
+}
+
+.labeled-icon.lg .icon {
+  width: 260px;
+  height: 260px;
+  border-radius: var(--radius-lg);
+}
+
