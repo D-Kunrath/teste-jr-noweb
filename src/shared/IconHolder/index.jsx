@@ -4,12 +4,12 @@ import { IoPricetags, IoThumbsUpSharp } from "react-icons/io5";
 
 function IconHolder({ iconName }) {
   const icons = {
-    priceTag: <IoPricetags />,
-    thumbsUp: <IoThumbsUpSharp />
+    priceTag: <IoPricetags className="icon" />,
+    thumbsUp: <IoThumbsUpSharp className="icon" />
   }
   return (
-    <div>
-      {icons[iconName] || "icon missing"}
+    <div className="icon-holder">
+      {icons[iconName]}
     </div>
   )
 }

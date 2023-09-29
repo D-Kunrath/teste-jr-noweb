@@ -1,0 +1,16 @@
+.icon-holder{
+  height: 57px;
+  width: 57px;
+  border: 10px solid var(--primary);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light);
+}
+
+.icon-holder .icon {
+  width: 25px;
+  height: 25px;
+  color: var(--color-icon);
+}
