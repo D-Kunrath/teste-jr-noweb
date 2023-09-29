@@ -7,22 +7,28 @@ import nowebIcon from "../../assets/icon-noweb.png";
 
 function Footer() {
   return (
-    <footer>
-      <section>
+    <footer className="footer">
+      <section className="contact">
         <div>
           <img src={logo} alt="Logo Elétrica J. Santos" />
           <p>Venha na Elétrica J. Santos e garanta a melhor opção para sua casa!</p>
         </div>
         <div>
-          <h3>Nos siga nas redes</h3>
-          <div>
-            <BsWhatsapp />
-            <BsInstagram />
-            <BsFacebook />
+          <p className="text-follow">Nos siga nas redes</p>
+          <div className="social-links">
+            <a href="#">
+              <BsWhatsapp className="icon" />
+            </a>
+            <a href="#">
+              <BsInstagram className="icon" />
+            </a>
+            <a href="#">
+              <BsFacebook className="icon" />
+            </a>
           </div>
         </div>
       </section>
-      <section>
+      <section className="info">
         <div>
           &copy; Copyright 2021 - Elétrica J. Santos - Todos os Direitos Reservados
         </div>

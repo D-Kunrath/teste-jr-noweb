@@ -6,7 +6,8 @@
   --secondary: #202332;
   --light: #ffffff;
   --dark: #202332;
-  --light-gray: #e0e0e0;
+  --light-gray: #f7f7f7;
+  --gray: #e0e0e0;
   --dark-gray: #333333;
 
   --color-icon: #828282;
@@ -20,4 +21,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-transform: none;
 }
