@@ -1,8 +1,8 @@
 import "./styles.css";
 
-function Rating({ rating = 0 }) {
+function Rating({ rating = 0, ...rest }) {
   return (
-    <div>{rating} stars</div>
+    <div {...rest}>{rating} stars</div>
   )
 }
 

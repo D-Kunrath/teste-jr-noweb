@@ -8,24 +8,26 @@ import Rating from "../../shared/Rating";
 
 function Landing() {
   return (
-    <section>
-      <div>
+    <section className="landing">
+      <div className="left">
         <h2>Ilumine o seu dia a dia!</h2>
-        <p>
+        <p className="text">
           Aqui na Elétrica J. Santos queremos trazer mais luz para o seu dia a dia!
           Temos produtos para toda sua casa com a melhor qualidade e atendimento da região!
         </p>
         <Button>Veja nossos produtos</Button>
         <Button color="none">Nos conheça melhor</Button>
-        <a href="#">
-          <AiOutlineArrowDown /> Role para ver mais
+        <a href="#highlights">
+          <AiOutlineArrowDown className="icon" /> Role para ver mais
         </a>
       </div>
-      <div>
+      <div className="right">
         <img src={womanImg} alt="" role="presentation" />
-        <IconHolder iconName="priceTag" />
-        <img src={highlightImages.coverImg} alt="luminária suspensa" />
-        <Rating rating={5} />
+        <div className="highlight">
+          <IconHolder iconName="priceTag" />
+          <img src={highlightImages.coverImg} alt="luminária suspensa" />
+        </div>
+        <Rating rating={5} className="rating" />
       </div>
     </section>
   )
