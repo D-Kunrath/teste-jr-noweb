@@ -75,7 +75,7 @@
 .landing .right .highlight .icon-holder {
   position: absolute;
   top: 0;
-  z-index: 10;
+  z-index: 5;
 }
 
 .landing .right .highlight img {

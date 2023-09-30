@@ -14,10 +14,18 @@
 
 .labeled-icon.pos-right {
   flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
 }
+
 
 .labeled-icon.lg {
   font-size: 22px;
+}
+
+.labeled-icon.md {
+  font-size: 18px;
 }
 
 .labeled-icon.lg .label {
@@ -46,5 +54,11 @@
   width: 260px;
   height: 260px;
   border-radius: var(--radius-lg);
+}
+
+.labeled-icon.md .icon {
+  width: 68px;
+  height: 68px;
+  border-radius: var(--radius-md);
 }
 
