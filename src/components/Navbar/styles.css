@@ -23,6 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .navbar .links {
@@ -59,4 +60,36 @@
   position: absolute;
   top: 65px;
   z-index: 10;
+}
+
+@media (width < 1024px) {
+  .header {
+    flex-direction: column;
+    height: 110px;
+  }
+
+  .header .logo {
+    padding: 5px;
+  }
+
+  .navbar {
+    min-width: 0;
+    border-radius: 0;
+  }
+
+  .navbar .links{
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .link.expansive {
+    position: static;
+  }
+
+  .dropdown-menu {
+    top: 45px;
+    left: 0;
+    right: 0;
+  }
 }

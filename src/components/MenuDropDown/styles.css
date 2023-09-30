@@ -18,3 +18,11 @@
   background-color: var(--light);
   transform: rotate(45deg);
 }
+
+@media (width < 1024px) {
+  .dropdown {
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+  }
+}

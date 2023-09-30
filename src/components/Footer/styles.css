@@ -38,3 +38,34 @@
   padding: 25px 0;
   font-size: 16px;
 }
+
+@media (width < 1024px) {
+  .footer {
+    padding: 20px;
+  }
+
+  .footer > section {
+    flex-direction: column;
+    gap: 23px;
+    justify-content: space-between;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .footer .contact {
+    padding: 40px 0;
+  }
+
+  .footer .contact > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer .social-links {
+    align-self: stretch;
+  }
+
+}

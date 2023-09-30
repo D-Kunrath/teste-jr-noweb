@@ -8,7 +8,7 @@ function Bio() {
   return (
     <section className="bio">
       <h2>Sua melhor opção</h2>
-      <div>
+      <div className="content">
         <div className="photo">
           <img src={storeImg} alt="Frente da loja Elétrica J. Santos" />
           <IconHolder iconName="thumbsUp" size="lg" />

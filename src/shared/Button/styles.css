@@ -41,3 +41,10 @@
   color: var(--light);
   border: 1px solid var(--light);
 }
+
+
+@media (width < 1024px) {
+  .btn.lg {
+    width: 100%;
+  }
+}

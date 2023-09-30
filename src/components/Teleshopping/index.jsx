@@ -8,7 +8,7 @@ function Teleshopping() {
     <section className="teleshopping">
       <div>
         <img src={womanImg} alt="" role="presentation" />
-        <Button>Acione nosso televendas</Button>
+        <Button className="tele-btn">Acione nosso televendas</Button>
       </div>
     </section>
   )

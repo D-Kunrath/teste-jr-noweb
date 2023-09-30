@@ -78,3 +78,32 @@
   line-height: 38px;
   margin-bottom: 50px;
 }
+
+@media (width < 1024px) {
+  .bio > div:before {
+    height: 200px;
+  }
+
+  .bio .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bio .photo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bio .photo:after {
+    top: 100%;
+  }
+
+  .bio .photo img {
+    width: 90%;
+  }
+
+  .bio .text {
+    margin-top: 20px;
+    padding: 20px;
+  }
+}

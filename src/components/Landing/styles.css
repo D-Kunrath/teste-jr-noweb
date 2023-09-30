@@ -86,3 +86,17 @@
 .landing .right .rating {
   position: absolute;
 }
+
+@media (width < 1024px) {
+  .landing .right {
+    display: none;
+  }
+
+  .landing .left {
+    width: 90%;
+  }
+
+  .landing .left h2{
+    font-size: 50px;
+  }
+}
